@@ -1,0 +1,38 @@
+# Virtual Environments (DO NOT UPLOAD TO GITHUB)
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE and Editor Cache
+.idea/
+*.swp
+*.swo
+*~
